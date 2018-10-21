@@ -1,0 +1,37 @@
+
+@media (min-width: 1280px)
+{
+    .media-player-margins
+    {
+        margin-top:4% !important;
+    }
+    .between-margins
+    {
+        margin-bottom:6% !important;
+    }
+    
+}
+
+@media (max-width: 1280px)
+{
+    .media-player-margins
+    {
+        margin-top:5% !important;
+    }
+    .between-margins
+    {
+        margin-bottom:5% !important;
+    }
+}
+
+@media (max-width: 576px)
+{
+    .media-player-margins
+    {
+        margin-top:6% !important;
+    }
+    .between-margins
+    {
+        margin-bottom:4% !important;
+    }
+}

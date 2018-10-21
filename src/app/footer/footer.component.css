@@ -1,0 +1,33 @@
+@import "~bootstrap/dist/css/bootstrap-grid.css";
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+    }
+
+.my-fab {
+    width: 20px;
+    height: 20px;
+    line-height: 0px !important;
+    padding-bottom:26px !important;
+    padding-top:0px;    
+    background-color:silver !important;
+}
+
+.mat-mini-fab .mat-button-wrapper{
+    line-height: 0px !important;
+    padding: 0 !important;    
+    display: block !important;
+}
+
+.mini-icon {
+    font-size: 14px;
+}
+
+.icon-margin {
+    margin-left:2% !important;
+}
+
+.center-margin {
+    margin:0 auto;
+}

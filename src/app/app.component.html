@@ -1,0 +1,36 @@
+<div>
+    <h1 class="animated bounceInDown" id = "NameHeader">Chris You</h1>
+    <div class="row">
+       <div class = "col-3 col-lg-4 offset-1 offset-xl-2 text-right" style="padding:0px">
+          <img src="../assets/click-here.png" id="animateId" class="click-here-margin animated swing delay-2s">    
+       </div>
+       <div class="col-6 text-left" style="padding:0px">
+          <a href="#div2" SimpleSmoothScroll>
+          <img src="../assets/contactme.png" class="click-here-margin" >
+          </a>
+       </div>
+    </div>
+    <mat-tab-group [disableRipple]="true" style="min-height:150vh;overflow: hidden">
+       <mat-tab label="Home" >
+          <app-home></app-home>
+       </mat-tab>
+       <mat-tab label="About">
+          <app-about></app-about>
+       </mat-tab>
+       <mat-tab label="Education">
+          <app-education></app-education>
+       </mat-tab>
+       <mat-tab label="Skills">
+          <app-skills></app-skills>
+       </mat-tab>
+       <mat-tab label="Portfolio">
+          <app-portfolio></app-portfolio>
+       </mat-tab>
+       <mat-tab label="Testimonials">
+          <app-testimonial></app-testimonial>
+       </mat-tab>
+       <mat-tab label="Recordings">
+          <app-sound-wave></app-sound-wave>
+       </mat-tab>
+    </mat-tab-group>
+    <app-footer id="div2" ></app-footer>
