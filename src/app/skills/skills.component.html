@@ -1,36 +1,51 @@
 <div class="container" style="max-width: 100%;
    overflow-x: hidden">
-   <div class="row">
-      <div id="pieChart" class = "col-10" style="margin-top:5%; padding:0px">
-         <p class="text-primary col-5 offset-4 offset-lg-5" style="font-size:20px"><strong>Top Skills</strong></p>
-         <canvas baseChart 
+	<div class="row">
+		<div id="pieChart" class = "col-10" style="margin-top:5%; padding:0px">
+			<p class="text-primary col-5 offset-4 offset-lg-5" style="font-size:20px">
+				<strong>Top Skills</strong>
+			</p>
+			<canvas baseChart 
          class="col"              
          style="margin:0 auto;position:relative"   
          [data]="pieChartData"
          [labels]="pieChartLabels"
          [chartType]="pieChartType"
          (chartHover)="chartHovered($event)"
-         (chartClick)="chartClicked($event)">
-         </canvas>
-      </div>
-   </div>
-   <div class="row" id="skillsMargin">
-      <div class="col-10 col-lg-5 offset-1 offset-lg-6" style="margin-top:5%">
-         <p class="text-primary offset-5 offset-lg-4" style="font-size:20px"><strong>Skills</strong></p>
-         <div class = "offset-md-2 offset-lg-1">
-            <p class="text-primary"><strong>Languages:</strong></p>
-            <p class="text-primary">C#, Java, C++, SQL, Javascript, C, Python, HTML, CSS, PHP</p>
-            <p class="text-primary"><strong>Platforms:</strong></p>
-            <p class="text-primary">Windows, Linux, Visual Studio, Windows Forms, Eclipse, NetBeans, eCase</p>
-            <p class="text-primary"><strong>VCS:</strong></p>
-            <p class="text-primary">TFS, Github, TortoiseSVN</p>
-            <p class="text-primary"><strong>DBMS:</strong></p>
-            <p class="text-primary">SQL Server, MySQL, SQLite</p>
-            <p class="text-primary"><strong>Frameworks:</strong></p>
-            <p class="text-primary">.Net, Asp.net, Angular, Bootstrap</p>
-            <p class="text-primary"><strong>Microsoft Applications</strong></p>
-            <p class="text-primary">Word, Excel, Visio, Powerpoint, Outlook</p>
-         </div>
-      </div>
-   </div>
+         (chartClick)="chartClicked($event)"></canvas>
+		</div>
+	</div>
+	<div class="row" id="skillsMargin">
+		<div class="col-10 col-lg-5 offset-1 offset-lg-6" style="margin-top:5%">
+			<p class="text-primary offset-5 offset-lg-4" style="font-size:20px">
+				<strong>Skills</strong>
+			</p>
+			<div class = "offset-md-2 offset-lg-1">
+				<p class="text-primary">
+					<strong>Languages:</strong>
+				</p>
+				<p class="text-primary">C#, Java, C++, SQL, Javascript, C, Python, HTML, CSS, PHP</p>
+				<p class="text-primary">
+					<strong>Platforms:</strong>
+				</p>
+				<p class="text-primary">Windows, Linux, Visual Studio, Windows Forms, Eclipse, NetBeans, eCase</p>
+				<p class="text-primary">
+					<strong>VCS:</strong>
+				</p>
+				<p class="text-primary">TFS, Github, TortoiseSVN</p>
+				<p class="text-primary">
+					<strong>DBMS:</strong>
+				</p>
+				<p class="text-primary">SQL Server, MySQL, SQLite</p>
+				<p class="text-primary">
+					<strong>Frameworks:</strong>
+				</p>
+				<p class="text-primary">.Net, Asp.net, Angular, Bootstrap</p>
+				<p class="text-primary">
+					<strong>Microsoft Applications</strong>
+				</p>
+				<p class="text-primary">Word, Excel, Visio, Powerpoint, Outlook</p>
+			</div>
+		</div>
+	</div>
 </div>
