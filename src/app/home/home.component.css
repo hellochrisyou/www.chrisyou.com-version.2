@@ -1,67 +1,111 @@
-
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-}
-
-@media (max-width: 3840px)
-{
-    .HomeImgMargin 
-    {
-        margin-top:10% !important;
+  }
+  
+  @media (max-width: 3840px) {
+    .HomeImgMargin {
+      margin-top: 10% !important;
     }
-    .HomeTextMargin
-    {
-        margin-top:5% !important;
+  
+    .HomeTextMargin {
+      margin-top: 5% !important;
+    }.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (max-width: 3840px) {
+    .HomeImgMargin {
+      margin-top: 10% !important;
     }
-}
-
-@media (max-width: 1920px)
-{
-    .HomeImgMargin 
-    {
-        margin-top:3% !important;
+  
+    .HomeTextMargin {
+      margin-top: 5% !important;
     }
-    .HomeTextMargin
-    {
-        margin-top:4% !important;
+  }
+  
+  @media (max-width: 1920px) {
+    .HomeImgMargin {
+      margin-top: 3% !important;
     }
-}
-
-@media (max-width: 1280px)
-{
-    .HomeImgMargin 
-    {
-        margin-top:6% !important;
+  
+    .HomeTextMargin {
+      margin-top: 4% !important;
     }
-    .HomeTextMargin
-    {
-        margin-top:10% !important;
+  }
+  
+  @media (max-width: 1280px) {
+    .HomeImgMargin {
+      margin-top: 6% !important;
     }
-}
-
-@media (max-width: 768px)
-{
-    .HomeImgMargin 
-    {
-        margin-top:9% !important;
+  
+    .HomeTextMargin {
+      margin-top: 10% !important;
     }
-    .HomeTextMargin
-    {
-        margin-top:7% !important;
+  }
+  
+  @media (max-width: 768px) {
+    .HomeImgMargin {
+      margin-top: 9% !important;
     }
-}
-@media (max-width: 576px)
-{
-    .HomeImgMargin 
-    {
-        margin-top:9% !important;
+  
+    .HomeTextMargin {
+      margin-top: 7% !important;
     }
-    .HomeTextMargin
-    {
-        margin-top:7% !important;
-        text-align:justify;
+  }
+  
+  @media (max-width: 576px) {
+    .HomeImgMargin {
+      margin-top: 9% !important;
     }
-}
+  
+    .HomeTextMargin {
+      margin-top: 7% !important;
+      text-align: justify;
+    }
+  }
+  }
+  
+  @media (max-width: 1920px) {
+    .HomeImgMargin {
+      margin-top: 3% !important;
+    }
+  
+    .HomeTextMargin {
+      margin-top: 4% !important;
+    }
+  }
+  
+  @media (max-width: 1280px) {
+    .HomeImgMargin {
+      margin-top: 6% !important;
+    }
+  
+    .HomeTextMargin {
+      margin-top: 10% !important;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .HomeImgMargin {
+      margin-top: 9% !important;
+    }
+  
+    .HomeTextMargin {
+      margin-top: 7% !important;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .HomeImgMargin {
+      margin-top: 9% !important;
+    }
+  
+    .HomeTextMargin {
+      margin-top: 7% !important;
+      text-align: justify;
+    }
+  }
