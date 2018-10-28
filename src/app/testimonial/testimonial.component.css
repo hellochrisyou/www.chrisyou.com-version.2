@@ -6,7 +6,7 @@
 }
 
 .font-override {
-	text-align: center !important;
+	text-align: center;
 }
 
 h2 {
@@ -33,7 +33,7 @@ h2 {
   
   .col-center {
 	margin: 0 auto;
-	float: none !important;
+	float: none;
   }
   
   .carousel {

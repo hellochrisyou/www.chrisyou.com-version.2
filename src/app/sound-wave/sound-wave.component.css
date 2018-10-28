@@ -1,29 +1,29 @@
 @media (min-width: 1280px) {
     .media-player-margins {
-      margin-top: 4% !important;
+      margin-top: 4%;
     }
   
     .between-margins {
-      margin-bottom: 6% !important;
+      margin-bottom: 6%;
     }
   }
   
   @media (max-width: 1280px) {
     .media-player-margins {
-      margin-top: 5% !important;
+      margin-top: 5%;
     }
   
     .between-margins {
-      margin-bottom: 5% !important;
+      margin-bottom: 5%;
     }
   }
   
   @media (max-width: 576px) {
     .media-player-margins {
-      margin-top: 6% !important;
+      margin-top: 6%;
     }
   
     .between-margins {
-      margin-bottom: 4% !important;
+      margin-bottom: 4%;
     }
   }

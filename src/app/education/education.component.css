@@ -95,36 +95,36 @@
 
 @media (min-width: 1401px) {
   #timelineTopMargin {
-    margin-top: 0% !important;
+    margin-top: 0%;
   }
 }
 
 @media (max-width: 1400px) {
   #timelineTopMargin {
-    margin-top: 10% !important;
+    margin-top: 10%;
   }
 }
 
 @media (max-width: 1280px) {
   #timelineTopMargin {
-    margin-top: 5% !important;
+    margin-top: 5%;
   }
 }
 
 @media (max-width: 1024px) {
   #timelineTopMargin {
-    margin-top: 14% !important;
+    margin-top: 14%;
   }
 }
 
 @media (max-width: 576px) {
   #timelineTopMargin {
-    margin-top: 45% !important;
+    margin-top: 45%;
   }
 }
 
 @media (max-width: 320px) {
   #timelineTopMargin {
-    margin-top: 58% !important;
+    margin-top: 58%;
   }
 }

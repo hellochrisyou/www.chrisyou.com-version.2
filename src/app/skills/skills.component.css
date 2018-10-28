@@ -39,11 +39,11 @@
 @media (max-width: 576px) {
   #pieChart {
     width: 100%;
-    height: 19em !important;
-    margin-top: 10% !important;
+    height: 19em;
+    margin-top: 10%;
   }
 
   #skillsMargin {
-    margin-top: 70% !important;
+    margin-top: 70%;
   }
 }
