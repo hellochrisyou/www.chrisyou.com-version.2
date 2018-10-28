@@ -38,7 +38,7 @@
     height: 100% !important;
   }
 
-  .example-card {
+  .portfolio-card {
     background-color: white;
     width: 400px !important;
     height: 650px !important;
@@ -203,7 +203,7 @@
 }
 
 @media (max-width: 1280px) {
-  .example-card {
+  .portfolio-card {
     background-color: white;
     width: 300px !important;
     height: 450px !important;
@@ -367,7 +367,7 @@
 }
 
 @media (max-width: 576px) {
-  .example-card {
+  .portfolio-card {
     background-color: white;
     width: 200px !important;
     display: block;
