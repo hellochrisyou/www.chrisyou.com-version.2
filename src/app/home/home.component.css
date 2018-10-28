@@ -12,7 +12,7 @@
   }
   .Intro-Card {
     max-width: 500px;
-    background-color:lightgrey;
+    background-color:#F3F3F3;
     color:black;
     max-height: 290px;
     align-items: center;
@@ -27,7 +27,7 @@
     }
     .Intro-Card {
         max-width: 500px;
-        background-color:lightgrey;
+        background-color:#F3F3F3;
         color:black;
         max-height: 300px;
         align-items: center;
@@ -42,7 +42,7 @@
     }
     .Intro-Card {
         max-width: 500px;
-        background-color:lightgrey;
+        background-color:#F3F3F3;
         color:black;
         max-height: 310px;
         align-items: center;
@@ -57,7 +57,7 @@
     }
     .Intro-Card {
         max-width: 500px;
-        background-color:lightgrey;
+        background-color:#F3F3F3;
         color:black;
         max-height: 380px;
         align-items: center;
