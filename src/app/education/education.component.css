@@ -60,6 +60,11 @@
   margin-left: 5px;
 }
 
+.container ul li {
+  background-color: #F3F3F3
+  ;
+}
+
 .container div .title, .container div .type {
   font-weight: 600;
   font-size: 12px;
@@ -90,7 +95,7 @@
 
 @media (min-width: 1401px) {
   #timelineTopMargin {
-    margin-top: 5% !important;
+    margin-top: 0% !important;
   }
 }
 

@@ -10,6 +10,13 @@
   .HomeImgMargin {
     margin-top: 10% !important;
   }
+  .Intro-Card {
+    max-width: 500px;
+    background-color:lightgrey;
+    color:black;
+    max-height: 290px;
+    align-items: center;
+}
 }
 
 @media (max-width: 1920px)
@@ -17,6 +24,13 @@
     .HomeImgMargin 
     {
         margin-top:3% !important;
+    }
+    .Intro-Card {
+        max-width: 500px;
+        background-color:lightgrey;
+        color:black;
+        max-height: 300px;
+        align-items: center;
     }
 }
 
@@ -26,6 +40,13 @@
     {
         margin-top:6% !important;
     }
+    .Intro-Card {
+        max-width: 500px;
+        background-color:lightgrey;
+        color:black;
+        max-height: 310px;
+        align-items: center;
+    }
 }
 
 @media (max-width: 768px)
@@ -34,21 +55,13 @@
     {
         margin-top:9% !important;
     }
-}
-@media (max-width: 576px)
-{
-    .HomeImgMargin 
-    {
-        margin-top:9% !important;
-    }
-}
-
-.intro-card {
-    max-width: 500px;
-    background-color:lightgrey;
-    color:black;
-    max-height:340px;
-
+    .Intro-Card {
+        max-width: 500px;
+        background-color:lightgrey;
+        color:black;
+        max-height: 380px;
+        align-items: center;
+    }    
 }
 
 .container {
@@ -57,4 +70,12 @@
     display: flex;
     justify-content: center;
     align-items: top;
+}
+
+.justify-text
+{
+    margin-left:3%;
+    margin-right:3%;
+    text-align: justify;
+    text-justify: inter-word;
 }
