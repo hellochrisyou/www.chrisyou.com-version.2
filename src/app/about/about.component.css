@@ -1,5 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap-grid.css";
- .text-primary {
+ .Text-Primary {
      color: black !important;
 }
  .row {
@@ -39,7 +39,7 @@
      #About-Text-Margin {
          margin-top: 1% !important;
     }
-     #About-Margin-Responsibility {
+     #Margin-Responsibility {
          margin-left:45%;
     }
 }
@@ -62,7 +62,7 @@
      #About-Text-Margin {
          margin-top: 1% !important;
     }
-     #About-Margin-Responsibility {
+     #Margin-Responsibility {
          margin-left:45%;
     }
 }
@@ -81,7 +81,7 @@
          display:block;
          margin: 0 auto;
     }
-     #About-Margin-Responsibility {
+     #Margin-Responsibility {
          margin-left:45%;
     }
 }
@@ -105,7 +105,7 @@
      #About-Text-Margin {
          margin-top: 6% !important;
     }
-     #About-Margin-Responsibility {
+     #Margin-Responsibility {
          margin-left:31% !important;
          margin-top:5%;
     }

@@ -1,29 +1,24 @@
 @media (min-width: 1280px) {
-    .media-player-margins {
+  #Media-Player-Margins {
       margin-top: 4%;
-    }
-  
-    .between-margins {
+ }
+  .Between-Margins {
       margin-bottom: 6%;
-    }
-  }
-  
-  @media (max-width: 1280px) {
-    .media-player-margins {
+ }
+}
+@media (max-width: 1280px) {
+  #Media-Player-Margins {
       margin-top: 5%;
-    }
-  
-    .between-margins {
+ }
+  .Between-Margins {
       margin-bottom: 5%;
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .media-player-margins {
+ }
+}
+@media (max-width: 576px) {
+  #Media-Player-Margins {
       margin-top: 6%;
-    }
-  
-    .between-margins {
+ }
+  .Between-Margins {
       margin-bottom: 4%;
-    }
-  }
+ }
+}

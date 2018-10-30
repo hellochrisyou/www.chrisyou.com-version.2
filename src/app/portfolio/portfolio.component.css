@@ -1,592 +1,489 @@
 @import "~bootstrap/dist/css/bootstrap-grid.css";
-
-@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
-
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
-
-@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
-
-@import "~@angular/material/prebuilt-themes/purple-green.css";
-
-.text-primary {
-  color: black !important;
+ @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+ @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+ @import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+ @import "~@angular/material/prebuilt-themes/purple-green.css";
+ .Text-Primary {
+     color: black !important;
 }
-
-.text-padding {
-  padding: 24px;
+ .Bold-Font {
+     font-weight: 700;
 }
-
-.bold-font {
-  font-weight: 700;
+ .col-center {
+     margin: 0 auto;
+     float: none !important;
 }
-
-.light-font {
-  color: grey;
-  font-size: 13px;
-  margin: auto;
+ .carousel .item .img-box {
+     width: 135px;
+     height: 135px;
+     margin: 0 auto;
+     padding: 5px;
+     border: 1px solid #ddd;
+     border-radius: 50%;
 }
-
-.center-element {
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
+ .carousel .img-box img {
+     width: 100%;
+     height: 100%;
+     display: block;
+     border-radius: 50%;
 }
-
-@media (min-width: 1280px) {
-  .col-XL {
-    margin: 0 auto !important;
-    height: 100% !important;
-  }
-
-  .portfolio-card {
-    background-color: white;
-    width: 400px !important;
-    height: 650px !important;
-    display: block;
-    padding: 0px !important;
-    margin: 0 auto !important;
-  }
-
-  .carousel .item {
-    color: #999;
-    font-size: 14px;
-    text-align: center;
-    overflow: hidden;
-    height: 700px !important;
-    width: 100% !important;
-    margin: 0 auto !important;
-  }
-
-  #containerMargin {
-    margin-top: 3% !important;
-  }
-
-  .title {
-    font-size: 16px !important;
-  }
-
-  .githubFont {
-    font-size: 10px !important;
-  }
-
-  .card-icon-TechnoBabel {
-    background-image: url("/assets/XamarinIcon.jpg");
-    background-size: cover;
-    background-position: center;
-    max-height: 40px !important;
-    max-width: 40px !important;
-    margin-left: 3% !important;
-  }
-
-  .card-icon-eCommerce {
-    background-image: url("/assets/AngularIcon.png");
-    background-size: cover;
-    background-position: center;
-    max-height: 40px !important;
-    max-width: 40px !important;
-    margin-left: 3% !important;
-  }
-
-  .card-icon-WindowsForm {
-    background-image: url("/assets/VisualStudioIcon.png");
-    background-size: cover;
-    background-position: center;
-    max-height: 50px !important;
-    max-width: 50px !important;
-    margin-left: 3% !important;
-  }
-
-  .card-icon-BJ {
-    background-image: url("/assets/BlackJackIcon.png");
-    background-size: cover;
-    background-position: center;
-    max-height: 50px !important;
-    max-width: 50px !important;
-    margin-left: 3% !important;
-  }
-
-  .card-icon-aws {
-    background-image: url("/assets/AwsIcon.png");
-    background-size: cover;
-    background-position: center;
-    max-height: 50px !important;
-    max-width: 50px !important;
-    margin-left: 3% !important;
-  }
-
-  .card-icon-Ubuntu {
-    background-image: url("/assets/UbuntuIcon.png");
-    background-size: cover;
-    background-position: center;
-    max-height: 50px !important;
-    max-width: 50px !important;
-    margin-left: 3% !important;
-  }
-
-  .cardContainer {
-    width: 100% !important;
-    height: 100% !important;
-  }
-
-  .card-toolbar {
-    max-height: 50px;
-    min-height: 50px;
-  }
-
-  .mat-card-header {
-    margin-top: 4% !important;
-  }
-
-  .mat-chip {
-    height: 11px !important;
-    background-color: darkgrey !important;
-    font-size: 9px;
-    color: black !important;
-  }
-
-  .mat-chip-list .chip-language {
-    height: 11px !important;
-    background-color: #A200FF  !important;
-    font-size: 9px;
-    color: black !important;
-  }
-
-  .mat-chip-list {
-    padding: 0px !important;
-    margin-top: 4% !important;
-    margin-bottom: 4% !important;
-    margin-right: 4% !important;
-  }
-
-  .text-description {
-    padding: 14px;
-    color: black !important;
-    font-size: 12px !important;
-    text-align: justify !important;
-  }
-
-  .image-position {
-    vertical-align: middle !important;
-    height: 370px !important;
-    width: 70% !important;
-    margin-top: 5% !important;
-  }
-
-  .image-migration {
-    vertical-align: middle !important;
-    height: 250px !important;
-    width: 70% !important;
-    margin-top: 10% !important;
-    margin-bottom: 11% !important;
-  }
-
-  .image-s3fs {
-    vertical-align: middle !important;
-    max-height: 60% !important;
-    max-width: 75% !important;
-    margin-top: 5% !important;
-  }
-
-  .image-bj {
-    vertical-align: middle !important;
-    max-height: 60% !important;
-    max-width: 75% !important;
-    margin-top: 5% !important;
-  }
-
-  .image-eCommerce {
-    vertical-align: middle !important;
-    max-height: 60% !important;
-    max-width: 75% !important;
-    margin-top: 5% !important;
-  }
+ .carousel .overview {
+     font-style: italic;
 }
-
-@media (max-width: 1280px) {
-  .portfolio-card {
-    background-color: white;
-    width: 300px !important;
-    height: 450px !important;
-    display: block;
-    padding: 0px !important;
-    margin: 0 auto !important;
-  }
-
-  .carousel .item {
-    color: #999;
-    font-size: 14px;
-    text-align: center;
-    overflow: hidden;
-    height: 500px !important;
-    width: 100% !important;
-    margin: 0 auto !important;
-  }
-
-  #containerMargin {
-    margin-top: 7% !important;
-  }
-
-  .title {
-    font-size: 12px !important;
-  }
-
-  .githubFont {
-    font-size: 9px !important;
-  }
-
-  .card-icon-TechnoBabel {
-    background-image: url("/assets/XamarinIcon.jpg");
-    background-size: cover;
-    background-position: center;
-    max-height: 30px !important;
-    max-width: 30px !important;
-    margin-left: 3% !important;
-  }
-
-  .card-icon-eCommerce {
-    background-image: url("/assets/AngularIcon.png");
-    background-size: cover;
-    background-position: center;
-    max-height: 30px !important;
-    max-width: 30px !important;
-    margin-left: 3% !important;
-  }
-
-  .card-icon-BJ {
-    background-image: url("/assets/BlackJackIcon.png");
-    background-size: cover;
-    background-position: center;
-    max-height: 30px !important;
-    max-width: 30px !important;
-    margin-left: 3% !important;
-  }
-
-  .card-icon-WindowsForm {
-    background-image: url("/assets/VisualStudioIcon.png");
-    background-size: cover;
-    background-position: center;
-    max-height: 30px !important;
-    max-width: 30px !important;
-    margin-left: 3% !important;
-  }
-
-  .card-icon-aws {
-    background-image: url("/assets/AwsIcon.png");
-    background-size: cover;
-    background-position: center;
-    max-height: 30px !important;
-    max-width: 30px !important;
-    margin-left: 3% !important;
-  }
-
-  .card-icon-Ubuntu {
-    background-image: url("/assets/UbuntuIcon.png");
-    background-size: cover;
-    background-position: center;
-    max-height: 30px !important;
-    max-width: 30px !important;
-    margin-left: 3% !important;
-  }
-
-  .cardContainer {
-    width: 100% !important;
-    height: 100% !important;
-  }
-
-  .card-toolbar {
-    max-height: 33px;
-    min-height: 33px;
-  }
-
-  .mat-card-header {
-    margin-top: 2% !important;
-  }
-
-  .mat-chip {
-    height: 8px !important;
-    background-color: darkgrey !important;
-    font-size: 7px;
-    color: black !important;
-  }
-
-  .mat-chip-list .chip-language {
-    height: 8px !important;
-    background-color: #A200FF  !important;
-    font-size: 7px;
-    color: black !important;
-  }
-
-  .mat-chip-list {
-    padding: 0px !important;
-    margin-top: 3% !important;
-    margin-bottom: 3% !important;
-  }
-
-  .text-description {
-    padding: 8px;
-    color: black !important;
-    font-size: 10px !important;
-    text-align: justify !important;
-  }
-
-  .image-position {
-    vertical-align: middle !important;
-    height: 220px !important;
-    width: 70% !important;
-    margin-top: 5% !important;
-  }
-
-  .image-migration {
-    vertical-align: middle !important;
-    height: 200px !important;
-    width: 70% !important;
-    margin-top: 5% !important;
-    margin-bottom: 11% !important;
-  }
-
-  .image-s3fs {
-    vertical-align: middle !important;
-    max-height: 60% !important;
-    max-width: 75% !important;
-    margin-top: 5% !important;
-  }
-
-  .image-bj {
-    vertical-align: middle !important;
-    max-height: 60% !important;
-    max-width: 75% !important;
-    margin-top: 5% !important;
-  }
-
-  .image-eCommerce {
-    vertical-align: middle !important;
-    max-height: 60% !important;
-    max-width: 75% !important;
-    margin-top: 5% !important;
-  }
+ .carousel .overview b {
+     text-transform: uppercase;
+     color: #7AA641;
 }
-
-@media (max-width: 576px) {
-  .portfolio-card {
-    background-color: white;
-    width: 200px !important;
-    display: block;
-    padding: 0px !important;
-    margin: 0 auto !important;
-  }
-
-  .carousel .item {
-    color: #999;
-    font-size: 14px;
-    text-align: center;
-    overflow: hidden;
-    height: 350px !important;
-    width: 200px !important;
-    margin: 0 auto !important;
-  }
-
-  #containerMargin {
-    margin-top: 12% !important;
-  }
-
-  .title {
-    font-size: 12px !important;
-  }
-
-  .githubFont {
-    font-size: 8px !important;
-  }
-
-  .card-icon-TechnoBabel {
-    background-image: url("/assets/XamarinIcon.jpg");
-    background-size: cover;
-    background-position: center;
-    max-height: 35px !important;
-    max-width: 35px !important;
-  }
-
-  .card-icon-eCommerce {
-    background-image: url("/assets/AngularIcon.png");
-    background-size: cover;
-    background-position: center;
-    max-height: 35px !important;
-    max-width: 35px !important;
-  }
-
-  .card-icon-WindowsForm {
-    background-image: url("/assets/VisualStudioIcon.png");
-    background-size: cover;
-    background-position: center;
-    max-height: 30px !important;
-    max-width: 30px !important;
-  }
-
-  .card-icon-aws {
-    background-image: url("/assets/AwsIcon.png");
-    background-size: cover;
-    background-position: center;
-    max-height: 30px !important;
-    max-width: 30px !important;
-  }
-
-  .card-icon-Ubuntu {
-    background-image: url("/assets/UbuntuIcon.png");
-    background-size: cover;
-    background-position: center;
-    max-height: 30px !important;
-    max-width: 30px !important;
-  }
-
-  .card-icon-BJ {
-    background-image: url("/assets/BlackJackIcon.png");
-    background-size: cover;
-    background-position: center;
-    max-height: 30px !important;
-    max-width: 30px !important;
-    margin-left: 3% !important;
-  }
-
-  .cardContainer {
-    width: 100% !important;
-    height: 100% !important;
-  }
-
-  .card-toolbar {
-    max-height: 33px;
-    min-height: 33px;
-  }
-
-  .mat-card-header {
-    margin-top: 2% !important;
-  }
-
-  .mat-chip {
-    height: 7px !important;
-    background-color: darkgrey !important;
-    font-size: 6px;
-    padding: 5px;
-    color: black !important;
-  }
-
-  .mat-chip-list .chip-language {
-    height: 8px !important;
-    background-color: #A200FF  !important;
-    font-size: 7px;
-    color: black !important;
-  }
-
-  .mat-chip-list {
-    padding: 0px !important;
-    margin: 0px !important;
-  }
-
-  .text-description {
-    padding: 5px;
-    color: black !important;
-    font-size: 7px !important;
-    text-align: justify !important;
-  }
-
-  .image-position {
-    vertical-align: middle !important;
-    height: 170px !important;
-  }
-
-  .image-migration {
-    vertical-align: middle !important;
-    height: 170px !important;
-  }
-
-  .image-s3fs {
-    vertical-align: middle !important;
-    max-height: 70% !important;
-    max-width: 80% !important;
-  }
-
-  .image-bj {
-    vertical-align: middle !important;
-    max-height: 40% !important;
-    max-width: 70% !important;
-  }
-
-  .image-eCommerce {
-    vertical-align: middle !important;
-    max-height: 40% !important;
-    max-width: 70% !important;
-  }
+ .carousel .carousel-control {
+     width: 40px;
+     height: 40px;
+     margin-top: -20px;
+     top: 50%;
+     background: none;
 }
-
-.col-center {
-  margin: 0 auto;
-  float: none !important;
+ .carousel-control i {
+     font-size: 68px;
+     margin: 0 auto !important;
+     line-height: 42px;
+     position: absolute;
+     display: inline-block;
+     color: rgba(0, 0, 0, 0.8);
+     text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
 }
-
-.carousel .item .img-box {
-  width: 135px;
-  height: 135px;
-  margin: 0 auto;
-  padding: 5px;
-  border: 1px solid #ddd;
-  border-radius: 50%;
+ .carousel .carousel-indicators {
+     bottom: -40px;
 }
-
-.carousel .img-box img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  border-radius: 50%;
+ .carousel-indicators li, .carousel-indicators li.active {
+     width: 10px;
+     height: 10px;
+     margin: 1px 3px;
+     border-radius: 50%;
 }
-
-.carousel .overview {
-  font-style: italic;
+ .carousel-indicators li {
+     background: #999;
+     border-color: transparent;
+     box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 }
-
-.carousel .overview b {
-  text-transform: uppercase;
-  color: #7AA641;
+ .carousel-indicators li.active {
+     background: #555;
+     box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 }
-
-.carousel .carousel-control {
-  width: 40px;
-  height: 40px;
-  margin-top: -20px;
-  top: 50%;
-  background: none;
+ .img-border {
+     padding: -1px;
+     border: 1px solid darkgray;
 }
-
-.carousel-control i {
-  font-size: 68px;
-  margin: 0 auto !important;
-  line-height: 42px;
-  position: absolute;
-  display: inline-block;
-  color: rgba(0, 0, 0, 0.8);
-  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+ @media (min-width: 1280px) {
+     .col-XL {
+         margin: 0 auto !important;
+         height: 100% !important;
+    }
+     .Portfolio-Card {
+         background-color: white;
+         width: 400px !important;
+         height: 650px !important;
+         display: block;
+         padding: 0px !important;
+         margin: 0 auto !important;
+    }
+     .carousel .item {
+         color: #999;
+         font-size: 14px;
+         text-align: center;
+         overflow: hidden;
+         height: 700px !important;
+         width: 100% !important;
+         margin: 0 auto !important;
+    }
+     #Portfolio-Container-Margin {
+         margin-top: 3% !important;
+    }
+     .Title {
+         font-size: 16px !important;
+    }
+     .Github-Font {
+         font-size: 10px !important;
+    }
+     #Card-Icon-Technobabel {
+         background-image: url("/assets/XamarinIcon.jpg");
+         background-size: cover;
+         background-position: center;
+         max-height: 40px !important;
+         max-width: 40px !important;
+         margin-left: 3% !important;
+    }
+     #Card-Icon-eCommerce {
+         background-image: url("/assets/AngularIcon.png");
+         background-size: cover;
+         background-position: center;
+         max-height: 40px !important;
+         max-width: 40px !important;
+         margin-left: 3% !important;
+    }
+     .Card-Icon-WindowsForm {
+         background-image: url("/assets/VisualStudioIcon.png");
+         background-size: cover;
+         background-position: center;
+         max-height: 50px !important;
+         max-width: 50px !important;
+         margin-left: 3% !important;
+    }
+     #Card-Icon-BJ {
+         background-image: url("/assets/BlackJackIcon.png");
+         background-size: cover;
+         background-position: center;
+         max-height: 50px !important;
+         max-width: 50px !important;
+         margin-left: 3% !important;
+    }
+     #Card-Icon-aws {
+         background-image: url("/assets/AwsIcon.png");
+         background-size: cover;
+         background-position: center;
+         max-height: 50px !important;
+         max-width: 50px !important;
+         margin-left: 3% !important;
+    }
+     #Card-Icon-Ubuntu {
+         background-image: url("/assets/UbuntuIcon.png");
+         background-size: cover;
+         background-position: center;
+         max-height: 50px !important;
+         max-width: 50px !important;
+         margin-left: 3% !important;
+    }
+     .Card-Container {
+         width: 100% !important;
+         height: 100% !important;
+    }
+     .Card-Toolbar {
+         max-height: 50px;
+         min-height: 50px;
+    }
+     .mat-card-header {
+         margin-top: 4% !important;
+    }
+     .mat-chip {
+         height: 11px !important;
+         background-color: darkgrey !important;
+         font-size: 9px;
+         color: black !important;
+    }
+     .mat-chip-list .chip-language {
+         height: 11px !important;
+         background-color: #A200FF !important;
+         font-size: 9px;
+         color: black !important;
+    }
+     .mat-chip-list {
+         padding: 0px !important;
+         margin-top: 4% !important;
+         margin-bottom: 4% !important;
+         margin-right: 4% !important;
+    }
+     .Text-Description {
+         padding: 14px;
+         color: black !important;
+         font-size: 12px !important;
+         text-align: justify !important;
+    }
+     .Image-Position {
+         vertical-align: middle !important;
+         height: 370px !important;
+         width: 70% !important;
+         margin-top: 5% !important;
+    }
+     #Image-Migration {
+         vertical-align: middle !important;
+         height: 250px !important;
+         width: 70% !important;
+         margin-top: 10% !important;
+         margin-bottom: 11% !important;
+    }
+     #Image-S3FS {
+         vertical-align: middle !important;
+         max-height: 60% !important;
+         max-width: 75% !important;
+         margin-top: 5% !important;
+    }
+     #Image-BJ {
+         vertical-align: middle !important;
+         max-height: 60% !important;
+         max-width: 75% !important;
+         margin-top: 5% !important;
+    }
+     #Image-eCommerce {
+         vertical-align: middle !important;
+         max-height: 60% !important;
+         max-width: 75% !important;
+         margin-top: 5% !important;
+    }
 }
-
-.carousel .carousel-indicators {
-  bottom: -40px;
+ @media (max-width: 1280px) {
+     .Portfolio-Card {
+         background-color: white;
+         width: 300px !important;
+         height: 450px !important;
+         display: block;
+         padding: 0px !important;
+         margin: 0 auto !important;
+    }
+     .carousel .item {
+         color: #999;
+         font-size: 14px;
+         text-align: center;
+         overflow: hidden;
+         height: 500px !important;
+         width: 100% !important;
+         margin: 0 auto !important;
+    }
+     #Portfolio-Container-Margin {
+         margin-top: 7% !important;
+    }
+     .Title {
+         font-size: 12px !important;
+    }
+     .Github-Font {
+         font-size: 9px !important;
+    }
+     #Card-Icon-Technobabel {
+         background-image: url("/assets/XamarinIcon.jpg");
+         background-size: cover;
+         background-position: center;
+         max-height: 30px !important;
+         max-width: 30px !important;
+         margin-left: 3% !important;
+    }
+     #Card-Icon-eCommerce {
+         background-image: url("/assets/AngularIcon.png");
+         background-size: cover;
+         background-position: center;
+         max-height: 30px !important;
+         max-width: 30px !important;
+         margin-left: 3% !important;
+    }
+     #Card-Icon-BJ {
+         background-image: url("/assets/BlackJackIcon.png");
+         background-size: cover;
+         background-position: center;
+         max-height: 30px !important;
+         max-width: 30px !important;
+         margin-left: 3% !important;
+    }
+     .Card-Icon-WindowsForm {
+         background-image: url("/assets/VisualStudioIcon.png");
+         background-size: cover;
+         background-position: center;
+         max-height: 30px !important;
+         max-width: 30px !important;
+         margin-left: 3% !important;
+    }
+     #Card-Icon-aws {
+         background-image: url("/assets/AwsIcon.png");
+         background-size: cover;
+         background-position: center;
+         max-height: 30px !important;
+         max-width: 30px !important;
+         margin-left: 3% !important;
+    }
+     #Card-Icon-Ubuntu {
+         background-image: url("/assets/UbuntuIcon.png");
+         background-size: cover;
+         background-position: center;
+         max-height: 30px !important;
+         max-width: 30px !important;
+         margin-left: 3% !important;
+    }
+     .Card-Container {
+         width: 100% !important;
+         height: 100% !important;
+    }
+     .Card-Toolbar {
+         max-height: 33px;
+         min-height: 33px;
+    }
+     .mat-card-header {
+         margin-top: 2% !important;
+    }
+     .mat-chip {
+         height: 8px !important;
+         background-color: darkgrey !important;
+         font-size: 7px;
+         color: black !important;
+    }
+     .mat-chip-list .chip-language {
+         height: 8px !important;
+         background-color: #A200FF !important;
+         font-size: 7px;
+         color: black !important;
+    }
+     .mat-chip-list {
+         padding: 0px !important;
+         margin-top: 3% !important;
+         margin-bottom: 3% !important;
+    }
+     .Text-Description {
+         padding: 8px;
+         color: black !important;
+         font-size: 10px !important;
+         text-align: justify !important;
+    }
+     .Image-Position {
+         vertical-align: middle !important;
+         height: 220px !important;
+         width: 70% !important;
+         margin-top: 5% !important;
+    }
+     #Image-Migration {
+         vertical-align: middle !important;
+         height: 200px !important;
+         width: 70% !important;
+         margin-top: 5% !important;
+         margin-bottom: 11% !important;
+    }
+     #Image-S3FS {
+         vertical-align: middle !important;
+         max-height: 60% !important;
+         max-width: 75% !important;
+         margin-top: 5% !important;
+    }
+     #Image-BJ {
+         vertical-align: middle !important;
+         max-height: 60% !important;
+         max-width: 75% !important;
+         margin-top: 5% !important;
+    }
+     #Image-eCommerce {
+         vertical-align: middle !important;
+         max-height: 60% !important;
+         max-width: 75% !important;
+         margin-top: 5% !important;
+    }
 }
-
-.carousel-indicators li, .carousel-indicators li.active {
-  width: 10px;
-  height: 10px;
-  margin: 1px 3px;
-  border-radius: 50%;
+ @media (max-width: 576px) {
+     .Portfolio-Card {
+         background-color: white;
+         width: 200px !important;
+         display: block;
+         padding: 0px !important;
+         margin: 0 auto !important;
+    }
+     .carousel .item {
+         color: #999;
+         font-size: 14px;
+         text-align: center;
+         overflow: hidden;
+         height: 350px !important;
+         width: 200px !important;
+         margin: 0 auto !important;
+    }
+     #Portfolio-Container-Margin {
+         margin-top: 12% !important;
+    }
+     .Title {
+         font-size: 12px !important;
+    }
+     .Github-Font {
+         font-size: 8px !important;
+    }
+     #Card-Icon-Technobabel {
+         background-image: url("/assets/XamarinIcon.jpg");
+         background-size: cover;
+         background-position: center;
+         max-height: 35px !important;
+         max-width: 35px !important;
+    }
+     #Card-Icon-eCommerce {
+         background-image: url("/assets/AngularIcon.png");
+         background-size: cover;
+         background-position: center;
+         max-height: 35px !important;
+         max-width: 35px !important;
+    }
+     .Card-Icon-WindowsForm {
+         background-image: url("/assets/VisualStudioIcon.png");
+         background-size: cover;
+         background-position: center;
+         max-height: 30px !important;
+         max-width: 30px !important;
+    }
+     #Card-Icon-aws {
+         background-image: url("/assets/AwsIcon.png");
+         background-size: cover;
+         background-position: center;
+         max-height: 30px !important;
+         max-width: 30px !important;
+    }
+     #Card-Icon-Ubuntu {
+         background-image: url("/assets/UbuntuIcon.png");
+         background-size: cover;
+         background-position: center;
+         max-height: 30px !important;
+         max-width: 30px !important;
+    }
+     #Card-Icon-BJ {
+         background-image: url("/assets/BlackJackIcon.png");
+         background-size: cover;
+         background-position: center;
+         max-height: 30px !important;
+         max-width: 30px !important;
+         margin-left: 3% !important;
+    }
+     .Card-Container {
+         width: 100% !important;
+         height: 100% !important;
+    }
+     .Card-Toolbar {
+         max-height: 33px;
+         min-height: 33px;
+    }
+     .mat-card-header {
+         margin-top: 2% !important;
+    }
+     .mat-chip {
+         height: 7px !important;
+         background-color: darkgrey !important;
+         font-size: 6px;
+         padding: 5px;
+         color: black !important;
+    }
+     .mat-chip-list .chip-language {
+         height: 8px !important;
+         background-color: #A200FF !important;
+         font-size: 7px;
+         color: black !important;
+    }
+     .mat-chip-list {
+         padding: 0px !important;
+         margin: 0px !important;
+    }
+     .Text-Description {
+         padding: 5px;
+         color: black !important;
+         font-size: 7px !important;
+         text-align: justify !important;
+    }
+     .Image-Position {
+         vertical-align: middle !important;
+         height: 170px !important;
+    }
+     #Image-Migration {
+         vertical-align: middle !important;
+         height: 170px !important;
+    }
+     #Image-S3FS {
+         vertical-align: middle !important;
+         max-height: 70% !important;
+         max-width: 80% !important;
+    }
+     #Image-BJ {
+         vertical-align: middle !important;
+         max-height: 40% !important;
+         max-width: 70% !important;
+    }
+     #Image-eCommerce {
+         vertical-align: middle !important;
+         max-height: 40% !important;
+         max-width: 70% !important;
+    }
 }
-
-.carousel-indicators li {
-  background: #999;
-  border-color: transparent;
-  box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
-}
-
-.carousel-indicators li.active {
-  background: #555;
-  box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
-}
-
-.img-border {
-  padding: -1px;
-  border: 1px solid darkgray;
-}
+ 
