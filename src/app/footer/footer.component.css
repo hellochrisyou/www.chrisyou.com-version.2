@@ -1,33 +1,27 @@
 @import "~bootstrap/dist/css/bootstrap-grid.css";
-
-.col-centered {
-    float: none;
-    margin: 0 auto;
-    }
-
-.my-fab {
-    width: 20px;
-    height: 20px;
-    line-height: 0px;
-    padding-bottom:26px;
-    padding-top:0px;    
-    background-color:silver;
+ .col-centered {
+     float: none;
+     margin: 0 auto;
 }
-
-.mat-mini-fab .mat-button-wrapper{
-    line-height: 0px;
-    padding: 0;    
-    display: block;
+ .My-Fab {
+     width: 20px;
+     height: 20px;
+     line-height: 0px;
+     padding-bottom:26px;
+     padding-top:0px;
+     background-color:silver;
 }
-
-.mini-icon {
-    font-size: 14px;
+ .mat-mini-fab .mat-button-wrapper{
+     line-height: 0px;
+     padding: 0;
+     display: block;
 }
-
-.icon-margin {
-    margin-left:2%;
+ .mini-icon {
+     font-size: 14px;
 }
-
-.center-margin {
-    margin:0 auto;
+ .Icon-Margin {
+     margin-left:2%;
+}
+ .center-margin {
+     margin:0 auto;
 }

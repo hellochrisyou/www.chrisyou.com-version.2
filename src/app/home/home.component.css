@@ -1,81 +1,68 @@
 @import "~bootstrap/dist/css/bootstrap-grid.css";
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-@media (max-width: 3840px) {
-  .HomeImgMargin {
-    margin-top: 10%;
-  }
-  .Intro-Card {
-    max-width: 500px;
-    background-color:#eceff1;
-    color:black;
-    max-height: 290px;
-    align-items: center;
+ .center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
 }
+ .container {
+     margin-top:5%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: top;
 }
-
-@media (max-width: 1920px)
-{
-    .HomeImgMargin 
-    {
-        margin-top:3%;
+ .Justify-Text {
+     margin-left:3%;
+     margin-right:3%;
+     text-align: justify;
+     text-justify: inter-word;
+}
+ @media (max-width: 3840px) {
+     .HomeImgMargin {
+         margin-top: 10%;
     }
-    .Intro-Card {
-        max-width: 500px;
-        background-color:#eceff1;
-        color:black;
-        max-height: 300px;
-        align-items: center;
+     .Intro-Card {
+         max-width: 500px;
+         background-color:#eceff1;
+         color:black;
+         max-height: 290px;
+         align-items: center;
     }
 }
-
-@media (max-width: 1280px)
-{
-    .HomeImgMargin 
-    {
-        margin-top:6%;
+ @media (max-width: 1920px) {
+     .HomeImgMargin {
+         margin-top:3%;
     }
-    .Intro-Card {
-        max-width: 500px;
-        background-color:#eceff1;
-        color:black;
-        max-height: 310px;
-        align-items: center;
+     .Intro-Card {
+         max-width: 500px;
+         background-color:#eceff1;
+         color:black;
+         max-height: 300px;
+         align-items: center;
     }
 }
-
-@media (max-width: 768px)
-{
-    .HomeImgMargin 
-    {
-        margin-top:9%;
+ @media (max-width: 1280px) {
+     .HomeImgMargin {
+         margin-top:6%;
     }
-    .Intro-Card {
-        max-width: 500px;
-        background-color:#eceff1;
-        color:black;
-        max-height: 380px;
-        align-items: center;
-    }    
+     .Intro-Card {
+         max-width: 500px;
+         background-color:#eceff1;
+         color:black;
+         max-height: 310px;
+         align-items: center;
+    }
 }
-
-.container {
-    margin-top:5%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: top;
+ @media (max-width: 768px) {
+     .HomeImgMargin {
+         margin-top:9%;
+    }
+     .Intro-Card {
+         max-width: 500px;
+         background-color:#eceff1;
+         color:black;
+         max-height: 380px;
+         align-items: center;
+    }
 }
-
-.justify-text
-{
-    margin-left:3%;
-    margin-right:3%;
-    text-align: justify;
-    text-justify: inter-word;
-}
+ 
