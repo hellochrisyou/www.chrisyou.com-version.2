@@ -19,9 +19,12 @@
  .mini-icon {
      font-size: 14px;
 }
- .Icon-Margin {
-     margin-left:2%;
+ .icon-margin {
+     margin-left: 1.5%;
+     margin-bottom: 2%;
 }
- .center-margin {
-     margin:0 auto;
-}
+ .sound-cloud-margin {
+    margin-bottom: -2%; 
+    width: 32px; 
+    height: 32px;
+ }
