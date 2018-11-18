@@ -98,11 +98,6 @@
 }
  @media (max-width: 576px) {
      #timelineTopMargin {
-         margin-top: 10%;
-    }
-}
- @media (max-width: 320px) {
-     #timelineTopMargin {
          margin-top: 15%;
     }
 }
