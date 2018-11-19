@@ -85,6 +85,14 @@
          padding: 0px !important;
          margin: 0 auto !important;
     }
+    .eCommerce-Card {
+        background-color: #0080FF;
+        width: 400px !important;
+        height: 650px !important;
+        display: block;
+        padding: 0px !important;
+        margin: 0 auto !important;
+    }
      .carousel .item {
          color: #999;
          font-size: 14px;
@@ -227,6 +235,14 @@
          padding: 0px !important;
          margin: 0 auto !important;
     }
+    .eCommerce-Card {
+        background-color: #0080FF;
+        width: 300px !important;
+        height: 450px !important;
+        display: block;
+        padding: 0px !important;
+        margin: 0 auto !important;
+    }
      .carousel .item {
          color: #999;
          font-size: 14px;
@@ -366,6 +382,13 @@
          display: block;
          padding: 0px !important;
          margin: 0 auto !important;
+    }
+    .eCommerce-Card {
+        background-color: #0080FF;
+        width: 200px !important;        
+        display: block;
+        padding: 0px !important;
+        margin: 0 auto !important;
     }
      .carousel .item {
          color: #999;
