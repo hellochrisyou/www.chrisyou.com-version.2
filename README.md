@@ -1,4 +1,5 @@
 # www.second-version.chrisyou.com
+<img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/chrisyou.com/Untitled+Diagram.png" width="100%"/>
 <img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/github-preview/website2/final-website2.png" width="100%"/>
 <H1>DEMO</h1>
 
