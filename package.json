@@ -34,7 +34,7 @@
     "buffer": "^5.2.1",
     "canvasjs": "^1.8.1",
     "carousel": "0.0.3",
-    "chart.js": "^2.7.2",
+    "chart.js": "^2.9.4",
     "classlist.js": "^1.1.20150312",
     "core-js": "^2.5.4",
     "events": "^3.0.0",
