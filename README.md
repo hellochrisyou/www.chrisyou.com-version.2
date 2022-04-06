@@ -1,6 +1,8 @@
-# www.second-version.chrisyou.com
-<img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/chrisyou.com/Untitled+Diagram.png" width="100%"/>
-<img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/github-preview/website2/final-website2.png" width="100%"/>
-<H1>DEMO</h1>
+<a href="www.2nd-version.hello.chrisyou.com"><h1>Click here to visit the Website</h1></a>
+<hr>
+<i>Play the video below to preview the web app in action</i>
+<video controls loop src="https://user-images.githubusercontent.com/28457425/161939909-e06967c1-dbaa-4543-9e32-edf238463e55.mp4" controls></video>
 
-<img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/gif/website-gif-2.gif" width="100%"/>
+
+
+
